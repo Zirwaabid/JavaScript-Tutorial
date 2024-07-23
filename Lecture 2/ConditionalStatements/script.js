@@ -1,4 +1,6 @@
-// conditional statements 
+// conditional statements
+
+// if-if statement  
 // let age=18;
 // if(age>=18) {
 //     console.log("you can vote")
@@ -7,7 +9,6 @@
 //     console.log("you cannot vote")
 // }
 
-// if-if statement 
 // let mode ="light";
 // let color;
 // if (mode==="dark") {
@@ -39,10 +40,25 @@ console.log(color)
 // we can use if else to find which number is even or add 
 let num=3;
 if (num%2===0) {
-    console.log(num "is even")
+    console.log(num ,"is even");
 }
 else{
-    console.log(num "is odd")
+    console.log(num ,"is odd");
+};
+
+// else if statement
+let age =70; 
+if (age<18) {
+    console.log("Junior");
+} 
+else if (age>60){
+    console.log("Senior");
 }
+else {
+    console.log("Middle");
+};
 
-
+// ternary opertors 
+let marks=30;
+let result= marks>=20 ? "pass" : "fail";
+console.log(result);
