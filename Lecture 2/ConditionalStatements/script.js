@@ -39,10 +39,10 @@ console.log(color)
 // we can use if else to find which number is even or add 
 let num=3;
 if (num%2===0) {
-    console.log("even")
+    console.log(num "is even")
 }
 else{
-    console.log("odd")
+    console.log(num "is odd")
 }
 
 
