@@ -22,9 +22,9 @@ b--; //short form of b=b-1
 // a++ post or ++a pre ,a-- post or --a pre 
 
 // Asignment operators 
-let a = 4;
-let b = 6;
-a += 5; //means a=a+5
+let v = 4;
+let w = 6;
+v += 5; //means v=v+5
 console.log(a)
 
 // //also use for a-=3 means a=a-3 , a*=4 means a=a*4 , a/=4 means a=a/4 , a%=3 means a=a%3 , a**=4 means a=a**4

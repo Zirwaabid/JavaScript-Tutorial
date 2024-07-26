@@ -9,11 +9,11 @@ let a = 4;
 let b = "4"
 // // if we use == then it shows true because both have same number but if we want to compare numbers and their data types then ot shows false because both have different data types so we use ===
 console.log(a === b) //false
-console.log(a !==) // means not equal to and true 
- let y=6;
- let u=4;
- console.log(y>4) //means y is greater than 4
- console.log(y<u)
+console.log(a !== b) // means not equal to and true 
+ let c=6;
+ let d=4;
+ console.log(c>d) //means y is greater than 4
+ console.log(c<d)
 // also 6>=3 means greater than equal (true) to or 4<3=3 (false)  means less than equal to 
  
 

@@ -1,11 +1,11 @@
 // conditional statements
 
 // if-if statement  
-let age=18;
-if(age>=18) {
+let age1=18;
+if(age1>=18) {
     console.log("you can vote")
 }
-if(age<18) {
+if(age1<18) {
     console.log("you cannot vote")
 }
 
