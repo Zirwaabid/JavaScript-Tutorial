@@ -1,19 +1,19 @@
 //comparison operators
 
-let a =10;
-let b=5;
-console.log("a==b",a==b)
-console.log("a!=b",a!=b)
+let w =10;
+let v=5;
+console.log("w==v",w==v)
+console.log("w!=v",w!=v)
 
-// let a = 4;
-// let b = "4"
+let a = 4;
+let b = "4"
 // // if we use == then it shows true because both have same number but if we want to compare numbers and their data types then ot shows false because both have different data types so we use ===
-// console.log(a === b) //false
-// console.log(a !==) // means not equal to and true 
-//  let y=6;
-//  let u=4;
-//  console.log(y>4) //means y is greater than 4
-//  console.log(y<u)
+console.log(a === b) //false
+console.log(a !==) // means not equal to and true 
+ let y=6;
+ let u=4;
+ console.log(y>4) //means y is greater than 4
+ console.log(y<u)
 // also 6>=3 means greater than equal (true) to or 4<3=3 (false)  means less than equal to 
  
 
