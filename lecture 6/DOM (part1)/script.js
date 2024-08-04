@@ -35,5 +35,3 @@ console.dir(classes);
 // id through query selector 
 let ids = document.querySelector("#heading"); // access first element
 console.dir(ids);
-
-
