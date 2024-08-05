@@ -23,8 +23,3 @@ console.log(div.style);
 div.style.backgroundColor="cyan";
 div.style.fontSize="23px";
 div.innerText="Pakistan";
-
-
-
-
-
