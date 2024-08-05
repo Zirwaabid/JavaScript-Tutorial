@@ -23,3 +23,12 @@ console.log(div.style);
 div.style.backgroundColor="cyan";
 div.style.fontSize="23px";
 div.innerText="Pakistan";
+
+// how to add new Element through js 
+let newBtn=document.createElement("button");
+newBtn.innerText="click me"; //add button to main element
+let main=document.querySelector("main");
+main.append(newBtn); //add in last of main
+main.prepend(newBtn); // add in first of main
+main.before(newBtn); // add before node (main)
+main.after(newBtn); // add after node (main)

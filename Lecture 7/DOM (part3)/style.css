@@ -6,3 +6,11 @@
     border: 2px solid black;
     text-align: center;
 }
+main{
+    height: 85px;
+    width: 95px;
+    color: rgb(0, 4, 7);
+    background-color: rgb(121, 60, 218);
+    border: 2px solid black;
+    text-align: center;
+}
