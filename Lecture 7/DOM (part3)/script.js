@@ -30,5 +30,9 @@ newBtn.innerText="click me"; //add button to main element
 let main=document.querySelector("main");
 main.append(newBtn); //add in last of main
 main.prepend(newBtn); // add in first of main
-main.before(newBtn); // add before node (main)
+main.before(newBtn); //=add before node (main)
 main.after(newBtn); // add after node (main)
+
+// add new heading 
+let heading=document.createElement("h1");
+heading.innerHTML="<i>Hi I am zirwa Abid!</i>";
