@@ -1,0 +1,11 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(16, 77, 199);
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+}
+div:hover{
+    background-color: blanchedalmond;
+}
