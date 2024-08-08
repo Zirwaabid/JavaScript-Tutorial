@@ -23,21 +23,27 @@ btn2.ondblclick = (events) => {
 }
 
 // event listener is more convenient way to use events in js 
-// benefit:we use multiple events on same element
-let btn3=document.querySelector(".btn3");
-btn3.addEventListener("click",()=>{
-    sum=0;
+// benefit:we use multiple events on same element eg button
+let btn3 = document.querySelector(".btn3");
+btn3.addEventListener("click", () => {
+    sum = 0;
     for (let i = 1; i <= 5; i++) {
-        sum+=i;
-        console.log(sum); 
+        sum += i;
+        console.log(sum);
     }
 })
-btn3.addEventListener("click",(evt)=>{
-   console.log(evt);
-})
-btn3.addEventListener("click",()=>{
-   console.log("Zirwa");
-})
-btn3.addEventListener("click",()=>{
-   console.log("cat");
-})
+btn3.addEventListener("click", (evt) => {
+    console.log(evt);
+});
+btn3.addEventListener("click", () => {
+    console.log("2");
+});
+//to remove we should use these things to remove any event
+const handler1 = () => {
+    console.log("1")  
+};//now this function is use anywhere by the name of handler1
+btn3.addEventListener("click", handler1 
+);
+
+// how to delete eventlistener (eg:delete 1)
+btn3.removeEventListener("click", handler1);
