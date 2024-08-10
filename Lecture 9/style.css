@@ -43,3 +43,25 @@ body {
     border-radius: 1rem;
     border: none;
 }
+h1{
+    color: #daf653;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+#new-btn{
+    padding: 0.40rem;
+    font-size: 1.25rem;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 0.30rem;
+    border: none;
+}
+#msg{
+    color: #fff;
+    font-size: 9vmin;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.msg-container{
+    height: 21vmin;
+}
