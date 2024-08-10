@@ -50,18 +50,28 @@ h1{
     font-weight: bolder;
 }
 #new-btn{
-    padding: 0.40rem;
+    padding: 1rem;
     font-size: 1.25rem;
     background-color: #000000;
     color: #fff;
-    border-radius: 0.30rem;
+    border-radius: 1rem;
     border: none;
 }
 #msg{
-    color: #fff;
-    font-size: 9vmin;
+    color: #daf653;
+    font-weight: bold;
+    font-size: 7vmin;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .msg-container{
-    height: 21vmin;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+.hide{
+    display: none;
 }
