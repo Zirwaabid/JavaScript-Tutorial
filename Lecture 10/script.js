@@ -6,4 +6,4 @@ choices.forEach((choice)=>{
     choice.addEventListener("click",()=>{
 
     })
-})
+});
