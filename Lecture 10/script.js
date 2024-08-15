@@ -3,5 +3,7 @@ let compScore=0;
 const choices=document.querySelectorAll(".choices");
 
 choices.forEach((choice)=>{
-    
+    choice.addEventListener("click",()=>{
+
+    })
 })
