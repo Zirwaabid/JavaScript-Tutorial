@@ -17,8 +17,8 @@ let z = 8;
 console.log("y = 4 & z = 5 ")
 a++; //short form of a=a+1
 b--; //short form of b=b-1
-// console.log("a = ", a)
-// console.log("b = ", b)
+console.log("a = ", a)
+console.log("b = ", b)
 // a++ post or ++a pre ,a-- post or --a pre 
 
 // Asignment operators 

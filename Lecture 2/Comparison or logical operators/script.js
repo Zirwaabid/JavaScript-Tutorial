@@ -22,8 +22,8 @@ console.log(a !== b) // means not equal to and true
 // 1- logical and && operator is true if both or all conditions is true and vice versa 
 let y=6;
  let u=4;
-// let condition1= y>u;
-// let condition2= y!==u;
+let condition1= y>u;
+let condition2= y!==u;
 console.log( y>u && y!==u)
 
 // 2-logical or  || is true when one out of any conditions is true 
