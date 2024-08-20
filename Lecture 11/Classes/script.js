@@ -1,68 +1,68 @@
-// class ToyotaCar {
-//    constructor(brand, mileage) {
-//       console.log("Hello buyers")
-//       this.brand = brand;
-//       this.mileage = mileage;
+class ToyotaCar {
+   constructor(brand, mileage) {
+      console.log("Hello buyers")
+      this.brand = brand;
+      this.mileage = mileage;
 
-//    }
-//    start() {
-//       console.log("Start");
-//    }
-//    stop() {
-//       console.log("stop");
-//    }
+   }
+   start() {
+      console.log("Start");
+   }
+   stop() {
+      console.log("stop");
+   }
+}
 
 
-// }
 // // we can create many objects through this template (class) 
-// let Fortuner = new ToyotaCar("fortuner", 14);
-// console.log(Fortuner);
-// let lexus = new ToyotaCar("lexus", 12);
-// console.log(lexus);
+let Fortuner = new ToyotaCar("fortuner", 14);
+console.log(Fortuner);
+let lexus = new ToyotaCar("lexus", 12);
+console.log(lexus);
 
 // // how to inherit parent class in child class 
 // // eg 
-// class parent {
+class parent {
 
-//    hello() {
-//       console.log("hello");
-//    }
-// };
+   hello() {
+      console.log("hello");
+   }
+};
 
-// class child extends parent { };
-// let obj = new child();
+class child extends parent { };
+let obj = new child();
 
 //another example
 
-// class person {
-//    constructor() {
-//       this.species = "homo sapiens";
-//    }
-//    eat() {
-//       console.log("eat");
-//    }
-//    sleep() {
-//       console.log("sleep");
-//    }
-// };
+class person {
+   constructor() {
+      this.species = "homo sapiens";
+   }
+   eat() {
+      console.log("eat");
+   }
+   sleep() {
+      console.log("sleep");
+   }
+};
 
-// class engineer extends person {
-//    work() {
-//       console.log("solve problms, bulid something")
-//    }
-// };
-// let Zirwa = new engineer();
+class engineer extends person {
+   work() {
+      console.log("solve problms, bulid something")
+   }
+};
+let Zirwa = new engineer();
 
-// class doctor extends person {
-//    work() {
-//       console.log("treat patients");
-//    }
-// };
+class doctor extends person {
+   work() {
+      console.log("treat patients");
+   }
+};
 
-// let e1 = new engineer();
-// let p1 = new person();
-// console.log(e1);
-// console.log(p1);
+let e1 = new engineer();
+let p1 = new person();
+console.log(e1);
+console.log(p1);
 
 //super keyword to invoke parent constructor into child to access all the properties of parent 
 
