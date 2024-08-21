@@ -11,7 +11,7 @@ function getData(DataId, getNextdata) {
 // getData(2);
 // getData(3);
 
-//callback 
+//Callback Hell
 getData(1, () => {
     console.log("getting data of 2......")
     getData(2,()=>{
