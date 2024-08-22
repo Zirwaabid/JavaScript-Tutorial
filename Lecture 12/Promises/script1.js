@@ -13,7 +13,7 @@ let promise=new Promise((resolve,reject)=>{
 
 });
 
-// last time we solve this problem by using callback that cause callback hell so we use promises to solve this :
+
 function getdata(dataId, GetNextData) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {

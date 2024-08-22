@@ -1,4 +1,5 @@
-// promises chaining 
+// promises chaining
+ 
 function asyncFunc1() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -31,3 +32,5 @@ asyncFunc1().then((res) => {
 //    p2.then((res)=>{
 //    });
 // });
+
+
